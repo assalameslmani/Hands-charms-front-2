@@ -1,6 +1,7 @@
 import React from "react";
 import {Link } from "react-router-dom";
 import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
 
 const PaymentScreen = () => {
     window.scrollTo(0, 0);
@@ -11,6 +12,7 @@ const PaymentScreen = () => {
     return(
         <div>
             <Header/>
+            <Navbar/>
         </div>
     );
 };

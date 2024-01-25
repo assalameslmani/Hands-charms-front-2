@@ -10,7 +10,7 @@ const Miniabout = () => {
         <div className="Miniabout" >
             <div className="column">
                  <h1 className="handcrafted">Handcrafted </h1>
-                 <h1>& Ethically Sourced</h1>
+                 <h1 className="handcrafted">& Ethically Sourced</h1>
                  <p className="it">It implies a sense of crafted elegance and unique pieces.</p>
                  <button className="explore" ><Link to="/About" className="explore" >Explore</Link></button>
              </div>

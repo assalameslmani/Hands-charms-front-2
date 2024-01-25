@@ -1,5 +1,6 @@
 import React from "react";
 import Header from "./../Components/Header";
+import Navbar from "../Components/Navbar";
 
 const OrderScreen = () => {
     window.scrollTo(0, 0);
@@ -7,6 +8,7 @@ const OrderScreen = () => {
     return (
         <div>
             <Header/>
+            <Navbar/>
         </div>
         );
     };

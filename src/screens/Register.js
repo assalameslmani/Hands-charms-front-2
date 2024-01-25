@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Header from "../Components/Header";
+import Navbar from "../Components/Navbar";
 
 const Register = () => {
   window.scrollTo(0, 0);
@@ -17,6 +18,7 @@ const Register = () => {
   return (
     <div>
       <Header />
+      <Navbar/>
       <div className='register-form'>
         <div className='form-register'>
           <h2 className='wecc'>WELCOME ! </h2>

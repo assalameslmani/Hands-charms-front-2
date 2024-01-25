@@ -3,6 +3,7 @@ import {Link } from "react-router-dom";
 import Header from "../Components/Header";
 import Message from "./../Components/LoadingError/Error";
 import axios from "axios";
+import Navbar from "../Components/Navbar";
 
 
 const Singleproduct = ({match}) => {
@@ -18,6 +19,7 @@ fetchproduct();
     return(
         <div>
             <Header/>
+            <Navbar/>
             <div>
                 <Message variant={"alert-warning"}>
                     Please{""}

@@ -388,3 +388,11 @@
 .price-shop{
   margin-top: -10px;
 }
+
+.burger-menu {
+  display: none; 
+}
+
+.headerul {
+  display: flex !important; 
+}

@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header';
+import Navbar from "../Components/Navbar";
 
 
 const Login = () => {
@@ -14,6 +15,7 @@ const Login = () => {
     return (
         <div>
             <Header/>
+            <Navbar/>
             <div className='login-form'>
              {loggedIn ? (
                <div>
