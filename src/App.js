@@ -16,6 +16,12 @@ import AboutScreen from './screens/AboutScreen';
 import ContactScreen from './screens/ContactScreen';
 import ShopScreen from './screens/ShopScreen';
 import Wishlist from './screens/Wishlist';
+import AdminScreen from "./screens/AdminScreen";
+import SellerScreen from "./screens/SellerScreen";
+import ProductSScreen from "./screens/ProductSScreen";
+import OrderSScreen from './screens/OrderSScreen';
+import UserAScreen from './screens/UserAScreen';
+import ProductAScreen from "./screens/ProductAScreen";
 
 function App() {
   return (
@@ -35,6 +41,12 @@ function App() {
         <Route path="/Contact" element={<ContactScreen />} />
         <Route path='/Shop' element={<ShopScreen/>} />
         <Route path="/Wishlist" element={<Wishlist/>}/>
+        <Route path='/SellerDash' element={<SellerScreen/>}/>
+        <Route path='/AdminDash' element={<AdminScreen/>}/>
+        <Route path='/ProductS' element={<ProductSScreen/>}/>
+        <Route path='/OrderS' element={<OrderSScreen/>}/>
+        <Route path='/UserA' element={<UserAScreen/>}/>
+        <Route path='/ProductA' element={<ProductAScreen/>}/>
       </Routes>
     </Router>
   );

@@ -396,3 +396,24 @@
 .headerul {
   display: flex !important; 
 }
+.navbar{
+  display: none;
+}
+.ProductS{
+ background-color: #E6E6E6;
+}
+.Items-dash{
+  display: flex;
+  background-color: #FFFFFF;
+  justify-content: space-around;
+}
+.itemimg{
+  width:100px;
+  height:130px;
+}
+.buttns{
+  display: inline;
+}
+.order-summary{
+  background-color: #E6E6E6;
+}
